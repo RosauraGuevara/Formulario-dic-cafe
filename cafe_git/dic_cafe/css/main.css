@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+li {
+  box-sizing: border-box;
+}
+
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+
+.key h1 {
+  font-size: 2.5rem;
+}
+
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#imagenconcepto {
+  width: 35%;
+  float: right;
+}
+
+#parrafoconcepto {
+  width: 60%;
+}
+
+#divconcepto {
+  margin: 0 10% 220px 10%;
+}
+#todomenu {
+  background-image: url("../images/sample_menu_bg.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  margin: 20% 1% 0 1%;
+  padding: 3%;
+}
+#panqueques {
+  display: flex;
+  margin: 20px;
+  height: 30%;
+}
+.imgpan {
+  width: 55%;
+
+}
+.itempan {
+  width: 49%;
+  display: flex;
+  margin: 1%;
+  
+}
+.textpan {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+}
+.pricepan {
+  text-align: right;
+}
+
+#cafecitos {
+  display: flex;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.parcafe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 49%;
+}
+
+.itemcafe {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 3% 0 3% 0; 
+}
+
+.bothtextcafe {
+ width: 80%;
+}
+
+dl {
+  display: flex;
+}
+
+dt {
+  width: 80px;
+}
+
+#map {
+  width: 100%; 
+}
+
+#mapdiv {
+  padding: 0 5% 0 5%;
+}
+
+footer {
+  background-color: #251e19;
+  position: absolute;
+  bottom 0;
+  right: 0;
+  left: 0;
+}
+
+#pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+
+li {
+  color: white;
+  margin: 3px;
+  font-size: 20px;
+}
+
+#c {
+  text-align: center;
+  color: white;
+}
+
+#logopata {
+  height: 55px;
+  width: 150px;
+}
